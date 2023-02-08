@@ -9,7 +9,7 @@
 #
 # 6 12
 
-print("Введите количество элемнтов в первом множестве: ", end="")
+print("Введите количество элементов в первом множестве: ", end="")
 n1 = int(input())
 s = set()
 for i in range(n1):
@@ -25,8 +25,8 @@ for i in range(n2):
 
 h = list(s.intersection(t))
 
-print(s.intersection(t))
+# print(s.intersection(t))
 
 h.sort()
 
-print(h)
+print("Числа в обоих наборах:", *h)
